@@ -45,6 +45,7 @@ int Bird_soc_tbox_rev_command_deal(U8 *p_receive_data, U32 receive_length)
 		//memcpy(sendAppBuf, "test...", sendAppBufLen);
 		//haveConentSendtoApp = true;
 		///return 1;
+
 	}
 	if (receive_length<19)
 		return 0;
